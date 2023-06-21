@@ -1,0 +1,168 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+
+}
+
+a {
+    color: inherit;
+}
+
+.h2-projetos {
+    font-size: 400%;
+    margin-bottom: -1%;
+}
+
+.div-inicial {
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    translate: 50% 50%;
+}
+
+.h3-oi {
+    position: relative;
+    left: -8%;
+    font-size: 190%;
+}
+
+.h2-projeto1 {
+    margin-bottom: -1px;
+}
+
+.h1-front,
+.h1-dev {
+    font-size: 900%;
+    margin: -9%;
+}
+
+.h4-anos {
+    position: relative;
+    left: 27%;
+    font-size: 130%;
+}
+
+
+
+.p-descricao {
+    font-weight: 700;
+    font-size: 100%;
+    font-size: 80%;
+    text-align: left;
+    left: 60px;
+    padding-left: 11px;
+
+}
+
+.link-1 {
+
+    font-size: 200%;
+    width: 200px;
+    margin-top: 0%;
+    margin-bottom: -8%;
+
+}
+
+.div-projeto {
+    position: relative;
+    align-items: center;
+    height: 500px;
+    top: 200%;
+
+}
+
+.img {
+    border-radius: 2%;
+    top: 80px;
+    transition: transform 0.5s, color 0.5s;
+
+}
+
+.img:hover {
+    transform: scale(1.02);
+}
+
+.div-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img-ghit {
+    padding-left: 30%;
+    top: -9%;
+    position: relative;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.img-ghit:hover {
+    transform: scale(1.20);
+}
+.div-projetos {
+    position: relative;
+    top: 600px;
+    height: 2000px;
+    left: 385px;
+    width: 1000px;
+    margin: none;
+    border: none;
+    padding: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+footer{
+    position: absolute;
+}
+.img-gmail{
+position: absolute;
+top: 70%;
+left: 1%;
+transition: transform 0.5s, color 0.5s;
+
+}
+.p-gamail{
+    font-size: 50%;
+    position: absolute;
+    left: 40%;
+    top: 56%;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.img-tel{
+position: absolute;
+top: 120%;
+transition: transform 0.5s, color 0.5s;
+
+}
+.p-tel{
+    
+    font-size: 50%;
+    position: absolute;
+    left: 38%;
+    top: 105%;
+    transition: transform 0.5s, color 0.5s;
+}
+.img-tel:hover{
+    transform: scale(1.20);
+}
+.img-gmail:hover{
+    transform: scale(1.20);
+
+}
+.p-tel:hover{
+    transform: scale(1.05);
+}
+.p-gamail:hover{
+    transform: scale(1.05);
+}
