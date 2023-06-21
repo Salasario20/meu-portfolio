@@ -1,2 +1,2 @@
 # meu-portfólio
- Repositorio do meu protifolio 📄
+ Repositorio do meu protfolio 📄
