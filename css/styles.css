@@ -1,10 +1,11 @@
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 
 }
 
-a {
+a{
     color: inherit;
 }
 
@@ -101,7 +102,7 @@ a {
 .div-projetos {
     position: relative;
     top: 600px;
-    height: 2000px;
+    height: 1800px;
     left: 385px;
     width: 1000px;
     margin: none;
@@ -165,4 +166,166 @@ transition: transform 0.5s, color 0.5s;
 }
 .p-gamail:hover{
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 320px) {
+
+    .img-ghit {
+    display: none;
+    }
+
+  .div-externa{
+    position: relative;
+    left: 0%;
+    top: -30%;
+    height: 150%;
+  }
+  .h2-projetos {
+    font-size: 140%;
+    margin-bottom: -1%;
+}
+
+h1{
+    margin: 0px;
+    font-size: 120%;
+}
+.div-inicial {
+    position: relative;
+    height: 300px;
+    left: -150px;
+    top: -150px;
+    
+}
+
+.h3-oi {
+    position: relative;
+    left: 0%;
+    font-size: 120%;
+    top: 10%;
+    margin: 0%;
+}
+
+.h2-projeto1 {
+    margin-bottom: -1px;
+    top: 400%;
+    font-size: 100%;
+}
+
+.h1-front,
+.h1-dev {
+    position: relative;
+    font-size: 340%;
+    margin: -9%;
+    top: 40px;
+    left: 25px;
+    
+}
+
+.h4-anos {
+    position: relative;
+    left: 0%;
+    font-size: 100%;
+    margin: 0px;
+    top: 50px;
+}
+
+
+
+.p-descricao {
+    font-weight: 700;
+    font-size: 60%;
+   
+    text-align: left;
+    
+    
+
+}
+
+.link-1 {
+
+   display: none;
+
+}
+
+.div-projeto {
+    position: relative;
+    width: 310px;
+    height: 400px;
+    top: 200%;
+
+}
+
+.img {
+    border-radius: 2%;
+    top: 80px;
+    transition: transform 0.5s, color 0.5s;
+    width: 300px;
+    height: 170px;
+
+}
+
+.img:hover {
+    transform: scale(1.02);
+}
+
+.div-links {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img-ghit {
+    padding-left: 30%;
+    top: -9%;
+    position: relative;
+    transition: transform 0.5s, color 0.5s;
+}
+
+
+.div-projetos {
+    position: relative;
+    top: -40px;
+    height: 1400px;
+    left: 0px;
+    width: 320px;
+    margin: none;
+    border: none;
+    padding: none;
+}
+
+
+.img-gmail{
+position: absolute;
+height: 20px;
+width: 20px;
+top: 70%;
+left: 1%;
+transition: transform 0.5s, color 0.5s;
+
+}
+.p-gamail{
+    font-size: 50%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.img-tel{
+position: absolute;
+top: 120%;
+transition: transform 0.5s, color 0.5s;
+height: 20px;
+width: 20px;
+
+}
+.p-tel{
+    
+    font-size: 50%;
+    position: absolute;
+    left: 29%;
+    top: 100%;
+    transition: transform 0.5s, color 0.5s;
+}
+
 }
