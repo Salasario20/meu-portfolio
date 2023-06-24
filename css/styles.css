@@ -268,18 +268,7 @@ h1{
     transform: scale(1.02);
 }
 
-.div-links {
-    display: flex;
-    flex-direction: row;
 
-}
-
-.img-ghit {
-    padding-left: 30%;
-    top: -9%;
-    position: relative;
-    transition: transform 0.5s, color 0.5s;
-}
 
 
 .div-projetos {
@@ -513,7 +502,195 @@ width: 20px;
         height: 150px;
         left: 10px;
     }
-    
+  
     }
 
+    @media screen and (max-width: 768px) {
 
+        .div-externa{
+            position: relative;
+            left: -1%;
+            top: -30%;
+            height: 145%;
+            width: 407px;
+            margin: 0%;
+          }
+          .h2-projetos {
+            position: relative;
+            font-size: 300%;
+            margin-bottom: 0%;
+            width: 650px;
+            left: -0px;
+            top: -0px;
+        }
+        
+        h1{
+            margin: 0px;
+            top: -10%;
+            
+        }
+        .div-inicial {
+            position: relative;
+            height: 320px;
+            width: 730px;
+            left: -350px;
+            top: -150px;
+            
+        }
+        
+        .h3-oi {
+            position: relative;
+            left: 4%;
+            font-size:200%;
+            top: 20%;
+            margin: 0%;
+        }
+        
+        .h2-projeto1 {
+            position: relative;
+            margin-bottom: -1px;
+            top: 30%;
+            font-size: 200%;
+            height:500%;
+            width: 625px;
+            left: 7px;
+            
+        }
+        
+        .h1-front,
+        .h1-dev {
+            position: relative;
+            font-size: 720%;
+            margin: -9%;
+            top: 90px;
+            left: 90px;
+            
+        }
+        
+        .h4-anos {
+            position: relative;
+            left: 4%;
+            font-size: 140%;
+            margin: 0px;
+            top: 110px;
+        }
+                
+        .p-descricao {
+            position: relative;
+            font-weight: 700;
+            font-size:100%;
+           left: 0%;
+            text-align: left;
+            
+        }
+        
+        .link-1 {
+    
+            font-size: 110%;
+            width: 20px;
+            margin-top: -10%;
+            margin-bottom: -8%;
+        
+        }
+        
+        .div-projeto {
+            position: relative;
+            width: 620px;
+            height: 700px;
+            top: 100%;
+        
+        }
+        
+        .img {
+            
+            left: 2px;
+            border-radius: 2%;
+            top: 80px;
+            transition: transform 0.5s, color 0.5s;
+            width: 470px;
+            height: 265px;
+        
+        }
+        
+        .img:hover {
+            transform: scale(1.02);
+        }
+        
+        .div-links {
+            display: flex;
+            flex-direction: row;
+        
+        }
+        
+        .img-ghit {
+            padding-left: 25px;
+            top: 15%;
+            position: relative;
+            transition: transform 0.5s, color 0.5s;
+            width: 70px;
+            height: 70px;
+        }
+        
+        
+        .div-projetos {
+            position: relative;
+            top: 1px;
+            height: 1900px;
+            left: 40px;
+            width: 320px;
+            
+        }
+        
+        
+        
+        .img-gmail{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: 18%;
+        left: 1%;
+        transition: transform 0.5s, color 0.5s;
+        
+        }
+        .p-gamail{
+            font-size: 50%;
+            position: absolute;
+            left: 21%;
+            top:18%;
+            transition: transform 0.5s, color 0.5s;
+            margin: 0%;
+            
+        }
+        
+        .img-tel{
+        position: absolute;
+        top: 34%;
+        left: 4px;
+        transition: transform 0.5s, color 0.5s;
+        height: 40px;
+        width: 40px;
+        
+        }
+        .p-tel{
+            
+            font-size: 50%;
+            position: absolute;
+            left: 22%;
+            top: 29%;
+            transition: transform 0.5s, color 0.5s;
+        }
+        .a-link{
+            
+           position: relative;
+           width: 10px;
+           height: 10px;
+        }
+        footer{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            left: 10px;
+        }
+     
+        }
+    
